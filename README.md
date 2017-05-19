@@ -32,6 +32,7 @@ Usage:
 	  -w WARNING            The Warning threshold (default: 80)
 	  -c CRITICAL           The Critical threshold (default: 90)
 
+Authfile Should contain a line : CSV_ENTRY;user;pass
 
 Status information give number of SnapShot present on VMFS . 
 Graph Output show you 
