@@ -3,9 +3,10 @@
 Plugins inspired from https://github.com/rogerlz/nagios-check-vcenter 
 
 ## check_datastore.py : 
+For your VMFS :
 This plugin can alert you for two thing :
-      - VMFS Occupation 
-      - VMFS Surallocation
+  - VMFS Occupation 
+  - VMFS Surallocation
 Status information give number of SnapShot present on VMFS . 
 Graph Output show you 
 
