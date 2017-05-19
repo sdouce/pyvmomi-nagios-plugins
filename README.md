@@ -3,12 +3,16 @@
 Plugins inspired from https://github.com/rogerlz/nagios-check-vcenter 
 
 ## check_datastore.py : 
-  This plugin can alert you for two thing : VMFS Occupaton and Surallocation . 
-
-More Status information give you quantity SnapShot present on your your VMFS . 
+  This plugin can alert you for two thing :
+    - VMFS Occupation 
+    - VMFS Surallocation
+Status information give number of SnapShot present on VMFS . 
+Graph Output show you 
 
 ## snap.py : 
-
-Alert you , when a snapshot is more than x Days Old or Snapshot three is bigger than 3 level . 
+For one VM 
+Generate Alert if : 
+  - Snapshot is more than x Days Old 
+  - Snapshot threechild is bigger than 3 level . 
 
 
